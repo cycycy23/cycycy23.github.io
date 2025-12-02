@@ -2,171 +2,146 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>MAMAMOO FAN PAGE</title>
+  <title>MAMAMOO FAN PAGE — 灶咖大賽專區</title>
   <style>
-    body {
-      font-family: 'Poppins', 'Arial', sans-serif;
-      background: linear-gradient(135deg, #b47cff, #e8d5ff);
-      margin: 0;
-      padding: 0;
-      color: #fff;
-    }
-    header {
-      padding: 40px 20px;
-      background: rgba(123, 77, 213, 0.9);
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-      backdrop-filter: blur(6px);
-    }
-    h1 {
-      margin: 0;
-      font-size: 38px;
-      font-weight: 700;
-      letter-spacing: 1px;
-    }
-
-    /* Section Container */
-    section {
-      padding: 40px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    /* Card Layout */
-    .flex-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-      margin-top: 25px;
-    }
-    .card {
-      background: #ffffff;
-      color: #333;
-      border-radius: 16px;
-      overflow: hidden;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-      transition: transform 0.25s, box-shadow 0.25s;
-    }
-    .card:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
-    }
-    .card img {
-      width: 100%;
-      height: 320px;
-      object-fit: cover;
-    }
-    .card-content {
-      padding: 18px;
-    }
-    .card-content h2 {
-      color: #7b4dd5;
-      font-size: 22px;
-      margin-bottom: 10px;
-    }
-
-    /* Info Box */
-    .infobox {
-      background: rgba(255,255,255,0.15);
-      padding: 25px;
-      border-radius: 14px;
-      backdrop-filter: blur(6px);
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    }
-
-    /* Footer */
-    footer {
-      margin-top: 60px;
-      padding: 18px;
-      background: rgba(123, 77, 213, 0.9);
-      text-align: center;
-    }
+    body { font-family: 'Poppins', Arial, sans-serif; margin:0; padding:0; background: linear-gradient(135deg,#b47cff,#e8d5ff); color:#fff; }
+    header { text-align:center; padding:48px 20px; background: rgba(76,30,172,0.95); box-shadow:0 6px 18px rgba(0,0,0,0.25);} 
+    h1{margin:0; font-size:44px; letter-spacing:1px}
+    section{max-width:1100px; margin:auto; padding:36px 20px}
+    .infobox{background:rgba(255,255,255,0.12); padding:22px; border-radius:12px; box-shadow:0 6px 14px rgba(0,0,0,0.18); backdrop-filter: blur(4px)}
+    .grid{display:grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap:22px; margin-top:18px}
+    .card{background:#fff; color:#222; border-radius:14px; overflow:hidden; box-shadow:0 8px 20px rgba(0,0,0,0.16); transition:transform .25s}
+    .card:hover{transform:translateY(-8px)}
+    .card img{width:100%; height:300px; object-fit:cover}
+    .card-content{padding:16px}
+    h2{color:#2e0d6a}
+    table{width:100%; border-collapse:collapse; margin-top:12px; background:#fff;color:#222;border-radius:8px;overflow:hidden}
+    th,td{padding:10px; text-align:left; border-bottom:1px solid #eee}
+    th{background:#f7f7f7}
+    footer{padding:18px; text-align:center; background:rgba(76,30,172,0.95); margin-top:36px}
+    ul{margin:8px 0 0 18px}
   </style>
 </head>
-
 <body>
-  <header>
-    <h1>MAMAMOO FAN PAGE</h1>
-    <p>韓國女團・紫色應援色 💜 期待女王回歸！</p>
-  </header>
 
-  <!-- ABOUT -->
-  <section>
-    <div class="infobox">
-      <h2>關於 MAMAMOO</h2>
-      <p>MAMAMOO 是 2014 年出道的韓國女子團體，由 Solar、Moonbyul、Wheein、Hwasa 四位成員組成。</p>
-      <p>以 <strong>超強 Live、穩定舞台、Jazz、R&B、放克</strong> 曲風著名，是公認的舞台怪物與唱將女團。</p>
-      <p>粉絲名：<strong>MooMoo（무무）</strong>｜官方應援色：<strong>紫色</strong> 💜</p>
-      <p>經典名言：<em>"Trust MAMAMOO, trust MooMoo"</em></p>
-    </div>
-  </section>
+<header>
+  <h1>MAMAMOO FAN PAGE</h1>
+  <p>介紹團體、成員與台灣 KPOP「灶咖大賽」專區 💜</p>
+</header>
 
-  <!-- MEMBERS -->
-  <section>
-    <h2>✨ 成員介紹</h2>
-    <div class="flex-grid">
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/%28MAMAMOO%29_Solar.jpg">
-        <div class="card-content">
-          <h2>Solar（隊長）</h2>
-          <p>主唱｜招牌強勢高音、舞台能量爆棚。</p>
-          <p>個人活動：YouTube 頻道 Solarsido、Solo 專輯。</p>
-        </div>
-      </div>
+<!-- 團體介紹 -->
+<section>
+  <h2>💜 團體介紹 — MAMAMOO</h2>
+  <div class="infobox">
+    <p>MAMAMOO 於 2014 年出道，成員為 Solar、Moonbyul、Wheein、Hwasa。以現場實力與多元曲風聞名，長期受到國內外粉絲喜愛。</p>
+    <p>音樂風格：R&amp;B、Jazz、Funk、Pop、Ballad 等。粉絲名：MooMoo（무무）。</p>
+  </div>
+</section>
 
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Moonbyul_at_APAN_Star_Awards_in_2020_2.png">
-        <div class="card-content">
-          <h2>Moonbyul</h2>
-          <p>主 Rap｜帥氣擔當、極強創作實力。</p>
-          <p>個人活動：Solo 專輯、企劃導演、舞台主導能力驚人。</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Mamamoo_Wheein_210425.png">
-        <div class="card-content">
-          <h2>Wheein</h2>
-          <p>主唱｜獨特音色 + 高質感 Solo 歌曲。</p>
-          <p>IG 美感女王，感性唱法極具辨識度。</p>
-        </div>
-      </div>
-
-      <div class="card">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Hwasa_at_APAN_Music_Awards_2019.png">
-        <div class="card-content">
-          <h2>Hwasa</h2>
-          <p>主唱｜全球矚目的 Solo Queen。</p>
-          <p>代表作《Maria》《Twit》，舞台魅力強烈。</p>
-        </div>
+<!-- 成員介紹 -->
+<section>
+  <h2>✨ 成員介紹（個人活動 & 重點）</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/%28MAMAMOO%29_Solar.jpg" alt="Solar">
+      <div class="card-content">
+        <h3>Solar（隊長）</h3>
+        <p>主唱，擅長高音與舞台掌控。個人頻道與綜藝活動活躍，曾發行多首 Solo 曲目。</p>
       </div>
     </div>
-  </section>
 
-  <!-- NEWS -->
-  <section>
-    <h2>🔔 最新消息</h2>
-    <div class="infobox">
-      <p>✨ MAMAMOO 預計推出新巡演預告！MooMoo 們準備好了嗎？</p>
-      <p>🎵 成員皆在進行 Solo 活動，各種作品陸續製作中。</p>
-      <p>📅 Hwasa 新專輯預計在今年 Q4 回歸！</p>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Moonbyul_at_APAN_Star_Awards_in_2020_2.png" alt="Moonbyul">
+      <div class="card-content">
+        <h3>Moonbyul</h3>
+        <p>主 Rap／創作擔當，舞台風格帥氣，Solo 作品展現多元音樂面向。</p>
+      </div>
     </div>
-  </section>
 
-  <!-- ALBUMS -->
-  <section>
-    <h2>🎶 經典專輯</h2>
-    <div class="flex-grid">
-      <div class="card"><div class="card-content"><h2>《HIP》</h2><p>全球爆紅曲目，展現強烈獨立風格。</p></div></div>
-      <div class="card"><div class="card-content"><h2>《Dingga》</h2><p>復古可愛氛圍，超洗腦旋律。</p></div></div>
-      <div class="card"><div class="card-content"><h2>《Aya》</h2><p>民族風強烈，概念完整又帥氣。</p></div></div>
-      <div class="card"><div class="card-content"><h2>《Wind Flower》</h2><p>感性抒情曲，展現慵懶與成熟魅力。</p></div></div>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Mamamoo_Wheein_210425.png" alt="Wheein">
+      <div class="card-content">
+        <h3>Wheein</h3>
+        <p>主唱，獨特音色與感性演繹，Solo 音樂受到好評，社群經營具高人氣。</p>
+      </div>
     </div>
-  </section>
 
-  <footer>
-    <p>Designed by (你的名字) | Moomoo Forever 💜</p>
-  </footer>
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Hwasa_at_APAN_Music_Awards_2019.png" alt="Hwasa">
+      <div class="card-content">
+        <h3>Hwasa</h3>
+        <p>主唱／個人魅力十足的 Solo Queen，代表作包含《Maria》《Twit》等，國際知名度高。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 灶咖大賽說明 -->
+<section>
+  <h2>🔥 什麼是「灶咖大賽」？</h2>
+  <div class="infobox">
+    <p>「灶咖大賽」是台灣粉絲與媒體間用來戲稱或比較「哪個韓團/藝人來台活動最多、最常駐留」的非正式話題性統計（並非官方比賽）。</p>
+    <p>它通常以「來台活動次數」、「見面會／簽售／商演／綜藝亮相」等公開行程作為參考，並由粉絲在社群上整理或媒體報導延伸討論。</p>
+  </div>
+</section>
+
+<!-- 2024 灶咖大賽 -->
+<section>
+  <h2>🏅 2024 台灣 KPOP 灶咖大賽（重點回顧）</h2>
+  <div class="infobox">
+    <p>2024 年被視為近年來韓星來台頻繁的一年，許多大型見面會、演唱會與綜藝活動在台灣舉辦。</p>
+
+    <h3>📌 本屆亮點（概述）</h3>
+    <ul>
+      <li>Super Junior 與 MAMAMOO 為兩大熱門常駐團體，分別在多場公開活動中擔任焦點。</li>
+      <li>MAMAMOO 展現高水準 Live 舞台與粉絲互動，屢次獲得現場熱烈掌聲。</li>
+      <li>活動型態包括大型見面會、電視/網路綜藝嘉賓、品牌活動與小型粉絲見面。</li>
+    </ul>
+
+    <h3>⚖️ 非官方比較（示意）</h3>
+    <table>
+      <thead>
+        <tr><th>團體</th><th>來台活動焦點</th><th>觀察重點</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>MAMAMOO</td><td>頻繁見面會、綜藝、粉絲活動</td><td>現場實力 + 粉絲互動強</td></tr>
+        <tr><td>Super Junior</td><td>大型演出、綜藝擔綱</td><td>綜藝魅力與團隊能量高</td></tr>
+      </tbody>
+    </table>
+
+    <h3>📋 代表性活動（示例）</h3>
+    <ul>
+      <li>MAMAMOO：多場粉絲見面會、品牌活動、音樂節演出（依公開行程整理，為非官方統計）。</li>
+      <li>Super Junior：大型演唱會、媒體活動與綜藝表演，帶動現場氣氛。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2025 灶咖大賽賽況 -->
+<section>
+  <h2>🏆 2025 KPOP 灶咖大賽 — 賽況更新</h2>
+  <div class="infobox">
+    <p>2025 年賽事延續熱度，更多團體加入來台行列，競爭與互動形式更加多元。</p>
+
+    <h3>📌 2025 年要點</h3>
+    <ul>
+      <li>參賽/來台團體數量創新高，粉絲見面與綜藝曝光大增。</li>
+      <li>MAMAMOO 仍為灶咖熱門團體，數場活動獲得高討論度。</li>
+      <li>賽況除了「出席次數」外，更多媒體與粉絲會討論「舞台質量」「綜藝表現」「粉絲互動」等指標。</li>
+    </ul>
+
+    <h3>📌 如何在本頁呈現（建議）</h3>
+    <ul>
+      <li>建立「來台行程表」：列出日期、活動類型、地點、參與成員。
+      <li>加入「粉絲票選」：讓 Moomoo 在站內投票（非官方）紀錄心目中最灶的場次。
+      <li>維護「年度統計表」：用簡單的非官方統計數字呈現團體來台熱度走向。</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>Designed by (你的名字) | Moomoo Forever 💜</p>
+</footer>
+
 </body>
 </html>
-
